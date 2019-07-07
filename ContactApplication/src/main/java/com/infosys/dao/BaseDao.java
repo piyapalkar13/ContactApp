@@ -8,7 +8,7 @@ import org.springframework.jdbc.core.namedparam.NamedParameterJdbcDaoSupport;
 public class BaseDao extends NamedParameterJdbcDaoSupport{
 @Autowired
 	public void setDataSource2(DataSource ds){
-	
+	//Cooment
 	super.setDataSource(ds);
 }
 	
